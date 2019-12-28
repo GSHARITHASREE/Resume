@@ -1,0 +1,171 @@
+html,body{
+background-color:#6FB98F;
+  margin:0;
+  padding:0;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*...........container1...........*/
+.container1{
+  margin:0;
+  width: 100%;
+  position: relative;
+ background-color:#4CAF50;
+ height:120px;
+ padding: 0;
+ }
+.objective{
+  width: 100%;
+  position: relative;
+  height:80px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+.summary{
+  width: 100%;
+  position: relative;
+  height:100px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+.skills
+{
+  width: 100%;
+  position: relative;
+  height:100px;
+  padding-top: 10px;
+margin-left: 50px;
+padding-left: 50px;
+
+}
+.education{
+  width: 100%;
+  position: relative;
+  height:130px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.expereince{
+  width: 100%;
+  position: relative;
+  height:80px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.achievements{
+  width: 100%;
+  position: relative;
+  height:100px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.personaldetails{
+  width: 100%;
+  position: relative;
+  height:80px;
+  padding-top: 10px;
+margin-left: 50px;
+padding-left: 50px;
+}
+
+.heading1{
+  color:white;
+padding-top: 20px;
+text-align: center;
+  }
+
+  .heading2{
+    font-family: sans-serif;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+
+    }
+
+.heading3{
+  color:white;
+  font-weight: bold;
+  }
+
+  .para1{
+text-align: center;
+font-weight: bold;
+
+}
+.para2{
+font-weight: bold;
+padding-left: 20px;
+}
+.list1{
+  font-weight: bold;
+
+}
+  .para3{
+
+font-weight: bold;
+padding-left: 20px;
+  }
+    .table1{
+font-weight: bold;
+text-align: center;
+border-collapse: collapse;
+    }
+    table1, th, td {
+  border: 3px solid #4CAF50;
+  position:relative;
+
+}
+.table1 tr:hover {  background-color: #ddd;}
+
+    .table2{
+font-weight: bold;
+margin left:30px;
+border-collapse: collapse;
+text-align: center;
+    }
+    table2, th, td {
+  border: 3px solid #4CAF50;
+}
+
+.table2 tr:hover {background-color: #ddd;}
+
+    .table3{
+font-weight: bold;
+margin left:30px;
+border-collapse: collapse;
+
+    }
+    table3, th, td {
+  border: 3px solid #4CAF50;
+}
+.table3 tr:hover {background-color: #ddd;}
+
+.heading5{
+  color:white;
+  opacity: 0.9;
+
+}
+.table1div{
+
+  padding-left:  20px;
+  }
+
+.table2div{
+
+  padding-left:  20px;
+  height:80px;
+}
+.table3div{
+
+  padding-left:  20px;
+  }
+a{
+  color: red;
+}
