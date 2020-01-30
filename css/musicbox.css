@@ -1,0 +1,90 @@
+  body{
+  background-color: #D4AF37;
+}
+h1{
+  color: #00308F;
+      margin-top: 100px;
+  font-family:"sans-serif";
+  font-size:3rem;
+  font-weight: bold;
+text-shadow: 1px 2px 2px #3377FF;
+text-align: center;
+margin-left: 350px;
+}
+
+h6{
+  color: white;
+      margin-top: 150px;
+margin-left:550px;
+  font-family:"sans-serif";
+    font-weight: bold;
+}
+.div1{
+  margin-top: 50px;
+padding-bottom: 50px;
+padding-left:300px;
+}
+
+.div2{
+  padding-top: 10px;
+padding-left:300px;
+}
+.button1 {
+  width:100px;
+  height:60px;
+  background-color: #f45905;
+}
+ .button2{
+   width:100px;
+   height:60px;
+   background-color: #f45905;
+ }
+
+
+/* Responsive css */
+@media screen and (max-width: 768px) {
+  h1{
+    color: #00308F;
+    margin: 0 auto;
+      margin-top: 100px;
+    padding-bottom:50px;
+    font-family:"sans-serif";
+    font-size:1.8rem;
+    font-weight: bold;
+  text-shadow: 1px 2px 2px #3377FF;
+  }
+  h6{
+    color: white;
+    margin: 0 auto;
+        margin-top: 110px;
+    font-family:"sans-serif";
+      font-weight: bold;
+  }
+  .div1{
+    padding-top: 30px;
+  padding-bottom: 10px;
+    margin-left: 30px;
+    padding-left: 20px;
+  text-align: center;
+  }
+
+  .div2{
+    padding-top: 10px;
+    margin-top: 100px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  padding-left: 20px;
+    text-align: center;
+  }
+  .button1 {
+    width:60px;
+    height:60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+   .button2{
+     width:60px;
+     height:60px;
+     margin-bottom: 20px;
+   }
+}
