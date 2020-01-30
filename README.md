@@ -5,7 +5,7 @@
 
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This  is a Web-Resume.
 	
 ## Technologies
 Project is created with:
