@@ -1,0 +1,521 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  color: #999999;
+  z-index: 99;
+  height: 5.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar-nav {
+  margin-left: 300px;
+}
+
+.navbar-nav>li {
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ..............name and photo........... */
+.container1 {
+  margin-top: 10rem;
+  padding-top: 8rem;
+  padding-left: 160px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.myimage {
+  height: 300px;
+  width: 300px;
+  border: 20px solid rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.list1>li {
+  display: inline;
+  padding-left: 5px;
+  list-style: none;
+}
+
+
+
+.heading1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #f45905;
+}
+
+.heading1-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+}
+.para0{
+
+  font-weight: bold;
+}
+
+.icon  :hover{
+  color: blue;
+}
+/* About me*/
+.container2 {
+  margin-top: 10rem;
+  padding-top: 8rem;
+  padding-left: 160px;
+  text-align: justify;
+
+}
+.container2-1{
+  padding-left:10px;
+}
+.aboutmeimage {
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.para2 {
+  padding-bottom: 10px;
+  text-align:left;
+  padding-left: 30px;
+    font-size: 20px;
+font-family: "Roboto"
+}
+.button1{
+margin: 0;
+padding-bottom:20px;;
+}
+.button1>li{
+
+list-style: none;
+display: inline;
+
+
+}
+.downloadlink {
+padding-left: 40px;
+  color:grey;
+  font-weight: bold;
+}
+
+.btn {
+  color: black;
+  font-size: 0.8rem;
+}
+/* what i do */
+.container3 {
+  margin-top: 10rem;
+  padding-top: 8rem;
+  padding-left: 160px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  position: relative;
+}
+
+
+.heading3 {
+text-align: center;
+    font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 3rem;
+color: #f45905;
+}
+.card {
+  background-color: white;
+ z-index: 99;
+
+width:100%;
+height:100%;
+
+margin-right: 50px;
+}
+
+.card-text{
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+padding-left:50px;
+margin: 0;
+font-size: 1rem;
+}
+.card-title {
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+border-radius: 50%;
+padding:0 100px;
+}
+
+
+ /* skils */
+.container4 {
+  margin-top: 8rem;
+  padding-top: 8rem;
+  padding-left: 180px;
+  padding-bottom: 40px;
+}
+ /* technical skills */
+.eachskills{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:
+}
+
+.heading4 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #f45905;
+}
+
+.heading4-1 {
+
+font-family: "Roboto", sans-serif;
+padding-bottom: 30px;
+font-weight: bold;
+color: #f45905;
+}
+.heading4-2 {
+  text-align: center;
+  padding-bottom: 30px;
+font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #f45905;
+}
+.candidatos {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.candidatos .parcial {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+
+.candidatos .parcial .info {
+  position: relative;
+}
+
+.candidatos .parcial .progressBar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 10px 0 2px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #6decb9;
+  z-index: 1;
+}
+
+.percentagem-num {
+  margin-left: 330px;
+  display: inline;
+  position: relative;
+  display: inline-block;
+  font-size: 0.9rem;
+  color:grey;
+  font-weight: bold;
+}
+/* professional */
+.skill2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nome {
+  position: relative;
+  display: inline-block;
+  font-size: 0.9rem;
+  color:grey;
+  font-weight: bold;
+}
+
+.mh-progress .mh-progress-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.mh-progress {
+  margin-bottom: 8px;
+  font: 900 1.1428571429em/1 Cinzel, cursive;
+}
+
+.mh-progress path:nth-child(2) {
+  stroke: #6decb9;
+}
+
+.mh-professional-progress li {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 35%;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+.pr-skill-name
+{
+  font-size: 0.9rem;
+  color:grey;
+  font-weight: bold;
+}
+/* education & experience */
+.container5 {
+  margin-top: 3rem;
+  padding-top: 8rem;
+  margin-left: 180px;
+  padding-bottom: 3rem;
+}
+
+.heading5 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.container5-1 {
+  padding-left: 20px;
+  text-align: justify;
+
+}
+.heading5-1 {
+font-weight: bold;
+  padding-bottom: 30px;
+  color: #f45905;
+}
+
+
+.container5-2 {
+padding-bottom: 50px;
+
+}
+
+.heading5-1-1 {
+    font-family: "Roboto sans-serif";
+  font-size: 1.3rem;
+  color: #21bf73;
+  font-weight: bold;
+
+}
+.mh-eduyear{
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+ /* portfolio */
+
+.container6 {
+  margin-top: 6rem;
+  padding-top: 8rem;
+  padding-left: 200px;
+}
+
+.heading6 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  color: #f45905;
+}
+
+.myworkimages {
+  padding-left: 25rem;
+}
+.heading6-1{
+  font-size: 1.5rem;
+}
+.media {
+  margin-left: 200px;
+  margin-bottom:40px;
+}
+
+.workimage {
+  border-radius: 50px;
+  width: 20%;
+  height: 30%;
+
+}
+.mt-0{
+  font-size: 0.9rem;
+
+}
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 768px) {
+
+  .container1 {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .container1-2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container1-1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container2-1 {
+    text-align: center;
+    margin-right:50px;
+    padding-left: 0;
+  }
+
+  .container2-2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .para2 {
+    padding-bottom: 10px;
+    text-align:left;
+    margin-left:20px;
+
+  }
+  .button1{
+    padding-left:50px;
+  }
+  .downloadlink {
+    padding: 0;
+  }
+  .aboutmeimage {
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
+  .container3 {
+    margin-top: 5rem;
+    padding: 0;
+
+  }
+
+.card  {
+
+margin-bottom:30px;
+  }
+
+  .card-title {
+    text-align: center;
+    padding-bottom:20px;
+    margin: 0;
+  }
+.card-text{
+
+}
+
+  .card-img-top {
+    width: 50%;
+        object-fit: cover;
+    padding: 0 100px;
+    border-radius: 50%;
+    margin: 0 100px;
+
+  }
+
+  .container4 {
+    margin-top: 5rem;
+    padding: 0;
+    text-align: center;
+
+  }
+  .heading4-1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  .heading4-2 {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  .container5 {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .container5-1 {
+    margin-left: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+  }
+
+  .container5-2 {
+    margin-left: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+  }
+  .heading5-1 {
+  text-align: center;
+    padding-bottom: 30px;
+  }
+  .container6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .media {
+    margin-left: 50px;
+  }
+  .mh-eduyear{
+    margin: 0;
+  }
+}
