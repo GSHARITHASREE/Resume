@@ -154,13 +154,13 @@ margin-right: 50px;
   font-family: "Roboto", sans-serif;
 padding-left:50px;
 margin: 0;
+font-size: 1rem;
 }
 .card-title {
 
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-
 }
 
 .card-img-top {
@@ -302,6 +302,7 @@ font-weight: bold;
   margin-top: 3rem;
   padding-top: 8rem;
   margin-left: 180px;
+
 }
 
 .heading5 {
@@ -370,17 +371,22 @@ padding-bottom: 50px;
   border-radius: 50px;
   width: 20%;
   height: 30%;
-  
+
 }
 .mt-0{
   font-size: 0.9rem;
 
 }
 
-
+.nil{
+  height: 10rem;
+color:white ;
+font-size: 10rem;
+}
 /* Responsive CSS */
 
 @media only screen and (max-width: 768px) {
+
   .container1 {
     margin-top: 5rem;
     margin-bottom: 0;
@@ -487,6 +493,7 @@ margin-bottom:30px;
   .container5 {
     margin: 0;
     padding: 0;
+
   }
 
   .container5-1 {
